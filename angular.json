@@ -21,15 +21,57 @@
             ],
             "tsConfig": "tsconfig.app.json",
             "assets": [
-              {
-                "glob": "**/*",
-                "input": "public"
-              }
+        "src/assets/static",
+        "src/favicon.ico",
+        "src/manifest.webmanifest",
+        {
+          "glob": "**/*",
+          "input": "src/assets/static",
+          "output": "/assets/static/"
+        }
             ],
             "styles": [
-              "src/styles.css"
+           
+            "src/styles.css",
+            "src/assets/static/vendor/bootstrap/css/bootstrap.min.css",
+            "src/assets/static/fonts/fontawesome-free-6.1.1-web/css/all.css",
+            "src/assets/static/fonts/fontawesome-free-6.1.1-web/css/all.min.css",
+            "src/assets/static/fonts/iconic/css/material-design-iconic-font.min.css",
+            "src/assets/static/fonts/linearicons-v1.0.0/icon-font.min.css",
+            "src/assets/static/vendor/animate/animate.css",
+            "src/assets/static/vendor/css-hamburgers/hamburgers.min.css",
+            "src/assets/static/vendor/select2/select2.min.css",
+            "src/assets/static/vendor/daterangepicker/daterangepicker.css",
+            "node_modules/slick-carousel/slick/slick.css",
+            "node_modules/slick-carousel/slick/slick-theme.css",
+            "src/assets/static/vendor/MagnificPopup/magnific-popup.css",
+            "src/assets/static/vendor/perfect-scrollbar/perfect-scrollbar.css",
+            "src/assets/static/vendor/MagnificPopup/magnific-popup.css",
+            "https://use.fontawesome.com/releases/v5.0.7/css/all.css",
+            "src/assets/static/css/util.css",
+            "src/assets/static//css/main.css"
+            
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/static/vendor/jquery/jquery-3.2.1.min.js",
+              "src/assets/static/vendor/animsition/js/animsition.min.js",
+              "src/assets/static/vendor/bootstrap/js/popper.js",
+              "src/assets/static/vendor/bootstrap/js/bootstrap.min.js",
+              "src/assets/static/vendor/select2/select2.min.js",
+              "src/assets/static/vendor/daterangepicker/moment.min.js",
+              "src/assets/static/vendor/daterangepicker/daterangepicker.js",
+              "src/assets/static/vendor/slick/slick.min.js",
+              "src/assets/static/js/slick-custom.js",
+              "src/assets/static/vendor/MagnificPopup/jquery.magnific-popup.min.js",
+              "src/assets/static/vendor/isotope/isotope.pkgd.min.js",
+              "src/assets/static/vendor/sweetalert/sweetalert.min.js",
+              "src/assets/static/vendor/perfect-scrollbar/perfect-scrollbar.min.js",
+              "src/assets/static/js/main.js",
+              "src/assets/static/custom/custom.js"
+
+
+
+            ]
           },
           "configurations": {
             "production": {
@@ -78,19 +120,64 @@
               "zone.js/testing"
             ],
             "tsConfig": "tsconfig.spec.json",
-            "assets": [
-              {
-                "glob": "**/*",
-                "input": "public"
-              }
+           "assets": [
+                "src/assets/static",
+                "src/favicon.ico",
+                "src/manifest.webmanifest",
+        {
+          "glob": "**/*",
+          "input": "src/assets/static",
+          "output": "/assets/static/"
+        } 
             ],
             "styles": [
-              "src/styles.css"
-            ],
-            "scripts": []
+           
+            "src/styles.css",
+            "src/assets/static/vendor/bootstrap/css/bootstrap.min.css",
+            "src/assets/static/fonts/fontawesome-free-6.1.1-web/css/all.css",
+            "src/assets/static/fonts/fontawesome-free-6.1.1-web/css/all.min.css",
+            "src/assets/static/fonts/iconic/css/material-design-iconic-font.min.css",
+            "src/assets/static/fonts/linearicons-v1.0.0/icon-font.min.css",
+            "src/assets/static/vendor/animate/animate.css",
+            "src/assets/static/vendor/css-hamburgers/hamburgers.min.css",
+            "src/assets/static/vendor/select2/select2.min.css",
+            "src/assets/static/vendor/daterangepicker/daterangepicker.css",
+            "node_modules/slick-carousel/slick/slick.css",
+            "node_modules/slick-carousel/slick/slick-theme.css",
+
+            "src/assets/static/vendor/MagnificPopup/magnific-popup.css",
+            "src/assets/static/vendor/perfect-scrollbar/perfect-scrollbar.css",
+            "src/assets/static/vendor/MagnificPopup/magnific-popup.css",
+            "https://use.fontawesome.com/releases/v5.0.7/css/all.css",
+            "src/assets/static/css/util.css",
+            "src/assets/static//css/main.css"
+      
+],
+            "scripts": [
+              "src/assets/static/vendor/jquery/jquery-3.2.1.min.js",
+              "src/assets/static/vendor/animsition/js/animsition.min.js",
+              "src/assets/static/vendor/bootstrap/js/popper.js",
+              "src/assets/static/vendor/bootstrap/js/bootstrap.min.js",
+              "src/assets/static/vendor/select2/select2.min.js",
+              "src/assets/static/vendor/daterangepicker/moment.min.js",
+              "src/assets/static/vendor/daterangepicker/daterangepicker.js",
+              "src/assets/static/vendor/slick/slick.min.js",
+              "src/assets/static/js/slick-custom.js",
+              "src/assets/static/vendor/MagnificPopup/jquery.magnific-popup.min.js",
+              "src/assets/static/vendor/isotope/isotope.pkgd.min.js",
+              "src/assets/static/vendor/sweetalert/sweetalert.min.js",
+              "src/assets/static/vendor/perfect-scrollbar/perfect-scrollbar.min.js",
+              "src/assets/static/js/main.js",
+              "src/assets/static/custom/custom.js"
+
+
+            ]
           }
         }
       }
     }
+  },
+  "cli": {
+    "analytics": false
   }
 }
